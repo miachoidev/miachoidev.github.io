@@ -10,10 +10,10 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
-docs:
-  -title:LLM
+sidebar:
+  - title: "LLM"
     children:
-      -title: langChain
-      url:/categories/langChain
-      -title: llamaIndex
-      url:/categories/llamaIndex
+      - title: "langChain"
+        url : /categories/langChain
+      - title: "llamaIndex"
+        url : /categories/llamaIndex
