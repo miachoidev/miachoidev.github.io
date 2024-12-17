@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://miachoidev.github.io/sitemap.xml
