@@ -58,13 +58,9 @@
             https://{{ entry.type }}.com/{{ site[entry.type].username }}
           {%- endcapture -%}
         {% when 'email' %}
-          <!-- 기존 코드
           {% assign email = site.social.email | split: '@' %}
           {%- capture url -%}
             javascript:location.href = 'mailto:' + ['{{ email[0] }}','{{ email[1] }}'].join('@')
-              -->
-           {%- capture url -%}
-            mailto:mia.choi.dev@gmail.com
           {%- endcapture -%}
         {% when 'rss' %}
           {% assign url = '/feed.xml' | relative_url %}
